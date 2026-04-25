@@ -4,8 +4,8 @@
 //  from: https://supabase.com/dashboard → Project Settings → API
 // ============================================================
 
-const SUPABASE_URL = window.__ENV__?.SUPABASE_URL || 'https://YOUR_PROJECT_ID.supabase.co';
-const SUPABASE_ANON_KEY = window.__ENV__?.SUPABASE_ANON_KEY || 'YOUR_ANON_KEY';
+const SUPABASE_URL = window.__ENV__?.SUPABASE_URL || 'https://ghgrmvaktlcoofdwqcai.supabase.co';
+const SUPABASE_ANON_KEY = window.__ENV__?.SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdoZ3JtdmFrdGxjb29mZHdxY2FpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY5NTk4NTcsImV4cCI6MjA5MjUzNTg1N30.62AYDhLB6Jmy5OEcC0ySVXXgiaEB7qOBLAmRyA57g2I';
 
 const { createClient } = supabase;
 const sb = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
